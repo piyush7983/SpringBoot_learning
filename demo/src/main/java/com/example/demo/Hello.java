@@ -13,11 +13,11 @@ public class Hello {
 
     @GetMapping("/profile")
     public String pro(){
-        return "tanmay is my son" ;
+        return "hello again!!" ;
     }
 
     @GetMapping("/profile/name")
     public String name(){
-        return "hello mittar" ;
+        return "hello again and again and again" ;
     }
 }
